@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SenSen | My Forever Love</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sparkles" id="sparkles"></div>
+
+<header>
+    <a class="logo" href="#">♡ SENSEN</a>
+    <span class="header-text">A LITTLE WORLD OF LOVE</span>
+</header>
+
+<main>
+
+<section class="hero">
+    <div class="hero-content">
+        <div class="small-title">✧ A SPECIAL PLACE IN MY HEART ✧</div>
+
+        <h1>Dear <span>SenSen</span></h1>
+
+        <p class="typing" id="typing"></p>
+
+        <div class="hero-heart">💗</div>
+
+        <p class="hero-desc">
+            មានមនុស្សម្នាក់ដែលខ្ញុំតែងតែនឹក<br>
+            ហើយមនុស្សម្នាក់នោះគឺអ្នក។
+        </p>
+
+        <button class="pink-btn" onclick="scrollToStory()">
+            Explore Our Little World ♡
+        </button>
+    </div>
+
+    <div class="floating-flower flower-one">🌸</div>
+    <div class="floating-flower flower-two">🌹</div>
+    <div class="floating-flower flower-three">🌷</div>
+</section>
+
+<section class="photo-section" id="story">
+    <div class="section-label">♡ MY FAVORITE PERSON ♡</div>
+    <h2>A Beautiful <span>Memory</span></h2>
+
+    <div class="photo-frame">
+        <div class="photo-inner">
+            <img src="https://i.ibb.co/1tDjTSLp/photo-2026-11-18-19-50-10.jpg"
+                 alt="My SenSen"
+                 onerror="this.style.display='none';document.getElementById('photoPlaceholder').style.display='flex';">
+
+            <div class="photo-placeholder" id="photoPlaceholder">
+                <span>🌸</span>
+                <p>ដាក់រូបថត SenSen នៅទីនេះ</p>
+                <small>images/sensen.jpg</small>
+            </div>
+        </div>
+        <div class="photo-caption">
+            <span>♡</span> My Special Person <span>♡</span>
+        </div>
+    </div>
+
+    <p class="photo-note">
+        រូបថតមួយសន្លឹក ក៏អាចរំលឹកអនុស្សាវរីយ៍បានច្រើនដែរ។
+    </p>
+</section>
+
+<section class="message-section">
+    <div class="section-label">♡ WORDS FROM MY HEART ♡</div>
+    <h2>A Letter For <span>You</span></h2>
+
+    <div class="letter">
+        <div class="letter-icon">💌</div>
+
+        <h3>To My SenSen</h3>
+
+        <p>
+            SenSen អើយ...<br><br>
+            ខ្ញុំមិនដឹងថាត្រូវប្រើពាក្យអ្វី
+            ដើម្បីពណ៌នាពីអារម្មណ៍នេះទេ។
+            តែមានរឿងមួយដែលខ្ញុំចង់ឱ្យអ្នកដឹង...
+        </p>
+
+        <button class="pink-btn" onclick="openLetter()">
+            Open My Letter 💗
+        </button>
+
+        <div class="hidden-letter" id="hiddenLetter">
+            ខ្ញុំពិតជានឹកអ្នកខ្លាំងណាស់។ 🥺<br><br>
+            រាល់ពេលដែលនឹកដល់អ្នក
+            ខ្ញុំតែងតែមានអារម្មណ៍ពិសេសក្នុងចិត្ត។<br><br>
+            សូមឱ្យអ្នកមានស្នាមញញឹម
+            និងជួបតែសេចក្តីសុខជានិច្ច។<br><br>
+            <strong>With Love, For SenSen 🌹</strong>
+        </div>
+    </div>
+</section>
+
+<section class="reasons">
+    <div class="section-label">♡ LITTLE THINGS ♡</div>
+    <h2>You Are <span>Special</span></h2>
+
+    <div class="reason-grid">
+        <div class="reason-card">
+            <div>🌷</div>
+            <h3>Beautiful Memory</h3>
+            <p>អនុស្សាវរីយ៍ដែលមានតម្លៃ។</p>
+        </div>
+
+        <div class="reason-card">
+            <div>💗</div>
+            <h3>Special Person</h3>
+            <p>មនុស្សដែលមានកន្លែងពិសេសក្នុងចិត្ត។</p>
+        </div>
+
+        <div class="reason-card">
+            <div>✨</div>
+            <h3>Warm Wishes</h3>
+            <p>សូមឱ្យអ្នកជួបតែរឿងល្អៗ។</p>
+        </div>
+    </div>
+</section>
+
+<section class="final-section">
+    <div class="big-rose">🌹</div>
+    <h2>Dear <span>SenSen</span></h2>
+    <p>Distance cannot erase a beautiful memory.</p>
+    <h3>MISS YOU SO MUCH ❤️</h3>
+    <div class="final-hearts">♡ ♥ ♡</div>
+</section>
+
+</main>
+
+<footer>
+    Made with ♡ for SenSen
+    <p>© 2026 | A Little World of Love</p>
+</footer>
+
+<div class="music-control">
+    <button id="musicButton" onclick="toggleMusic()">♫ Music OFF</button>
+    <audio id="music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
